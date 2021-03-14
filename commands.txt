@@ -1,0 +1,34 @@
+To install django:
+python -m pip install Django
+
+To create a project:
+django-admin startproject employee_details
+
+To create an app:
+django-admin startapp employee
+
+To activate the vurtual environment:
+conda activate myenv
+
+To create the Database schema's:
+python manage.py migrate
+OR
+python manage.py migrate app-name 0001
+python manage.py makemigrations
+
+To run the server:
+python manage.py runserver
+
+To install djangorestframework module:
+pip install djangorestframework
+
+Misc:
+python --version
+python -m django --version
+
+
+
+
+
+
+
